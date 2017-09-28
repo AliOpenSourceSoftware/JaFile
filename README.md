@@ -1,6 +1,30 @@
 # JaFile
 
 A java file reading and writing utility project. 
+
+### Maven instal
+```
+<repositories>
+  <repository>
+    <id>aaronali-Java</id>
+    <url>https://packagecloud.io/aaronali/Java/maven2</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+</repositories>
+```
+```
+<dependency>
+  <groupId>com.ali.java</groupId>
+  <artifactId>jaFile</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
 ### Instantiate
 ```FileReader fileReader = new FileReder();```<br>
 
