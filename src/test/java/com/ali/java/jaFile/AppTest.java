@@ -39,20 +39,17 @@ public class AppTest
     }
      
     public void testFileCreation() { 
-      FileReader.createFile("test.txt");
+      FileReader.CreateFile("test.txt");
       File file = new File("test.txt");
       assertEquals(true ,file.exists());
 
     }
     
     public void testfileoverwrite() { 
-        FileReader.createFile("test.txt");
+        FileReader.CreateFile("test.txt");
         File file = new File("test.txt");
         assertEquals(true ,file.exists());
 
       }
-    
-    
-    
-    
+     
 }
