@@ -1,7 +1,6 @@
 ## JaFile
 
-A java file reading and writing untility project using a static class
- 
+A java file reading and writing utility project. 
 
 ### Create a new file
 
@@ -25,10 +24,7 @@ Returns a string collection of the current listing in the path or returns null i
 ### Static methods
 The above methods are available can be called statically using the below syntax
 
-boolean = fileReader.createFile(filename);<br>
-Returns true if the file exists 
 
-### Append text to the file
 boolean= FileReader.CreateFile(filename);<br>
 void = FileReader.AppendToFile(fileName, text);<br> 
 String = FileReader.ReadFile(String filename);<br> 
