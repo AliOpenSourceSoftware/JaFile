@@ -25,8 +25,7 @@ Returns a string collection of the current listing in the path or returns null i
 The above methods are available can be called statically using the below syntax
 
 
-```boolean= FileReader.CreateFile(filename);<br>
-void = FileReader.AppendToFile(fileName, text);<br> 
-String = FileReader.ReadFile(String filename);<br> 
-Collection<String> = FileReader.GetDirListing(path)
-```
+```boolean= FileReader.CreateFile(filename);```<br>
+```void = FileReader.AppendToFile(fileName, text);```<br>
+```String = FileReader.ReadFile(String filename);```<br>
+```Collection<String> = FileReader.GetDirListing(path)```<br>
