@@ -1,6 +1,8 @@
-## JaFile
+# JaFile
 
 A java file reading and writing utility project. 
+### Instantiate
+```FileReader fileReader = new FileReder();```<br>
 
 ### Create a new file
 
